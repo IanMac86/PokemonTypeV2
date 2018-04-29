@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teamviewlist">
+
+    <ImageView
+        android:id="@+id/list_largeImg"
+        android:layout_width="219dp"
+        android:layout_height="187dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:text="Image" />
+
+    <TextView
+        android:id="@+id/list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_largeImg"
+        android:layout_centerHorizontal="true"
+        android:text="PokeDex ID"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_id"
+        android:layout_centerHorizontal="true"
+        android:text="Pokemon name"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/list_type1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_name"
+        android:layout_centerHorizontal="true"
+        android:text="Type"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/list_type2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_type1"
+        android:layout_centerHorizontal="true"
+        android:text="Type"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/addPokemon_Button"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        android:layout_alignLeft="@+id/list_largeImg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/list_largeImg"
+        android:text="Add"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/Add" />
+
+    <Button
+        android:id="@+id/deletePokemon_Button"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+        android:layout_alignEnd="@+id/list_largeImg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/list_largeImg"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Remove"
+        android:background="@drawable/delete" />
+
+</android.widget.RelativeLayout>

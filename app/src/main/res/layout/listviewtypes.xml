@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/list_Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/list_Strongtypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Vs"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_below="@+id/list_Type"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/list_Weaktypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Vs"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_below="@+id/list_Strtype6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:id="@+id/list_Strtype1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Strongtypes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/list_Strtype2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Strtype1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/list_Strtype3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Strtype2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Strtype4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Strtype3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Strtype5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Strtype4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Strtype6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Strtype5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Weaktype1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Weaktypes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Weaktype2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Weaktype1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Weaktype3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Weaktype2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Weaktype4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Weaktype3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Weaktype5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Weaktype4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/list_Weaktype6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weak Against:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12dp"
+        android:layout_below="@+id/list_Weaktype5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</android.widget.RelativeLayout>
